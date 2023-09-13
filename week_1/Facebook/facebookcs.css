@@ -1,0 +1,106 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3b5998;
+}
+.main{
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    flex-grow: 5;
+    height: 100v;
+}
+
+
+.login{
+    background-color:white;
+    flex-grow:1;
+    align-items: center;
+    height: 100vh ;
+}
+.description{
+    margin-top: 0;
+}
+
+   
+.login-form{
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-top: 54px;
+    line-height: 1.6;
+}
+.logoimage{
+    width: 60%;
+    height: 40%;
+    box-shadow: 0 0 15px 5px #3b5998;
+    margin-left: 170px;
+    margin-top:110px ;
+}
+.forgotten{
+    margin-left: 300px;
+    color: grey;
+    text-decoration: none;
+}
+
+.heading{
+    color: blue;
+    font-style: arial;
+    font-weight: 100;
+    margin-left: 60px;
+    
+
+}
+
+.box{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 450px;
+}
+
+.hr-class{
+    padding-right:100px;
+    padding-left: 100px;
+}
+
+.loginbutton{
+    font-size: 16px;
+    background-color: #2066bc; 
+    color: #ffffff; 
+    border: none; 
+    cursor: pointer; 
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.text{
+    color: #2066bc;
+}
+
+.new_account{
+    margin-left: 60px; 
+    font-size: 16px;
+    background-color: #12a253; 
+    color: #ffffff; 
+    border: none; 
+    cursor: pointer; 
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+.bottom_text{
+    margin-left: 190px;
+    line-height: 0px;
+}
+.bottom_link{
+    margin-left: 240px;
+    color: #12a253;
+    line-height: 0px;
+}
